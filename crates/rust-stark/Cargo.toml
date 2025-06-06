@@ -1,0 +1,16 @@
+[package]
+name = "rust-stark"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winterfell = "0.12"
+serde = { version = "1", features = ["derive"] }
+blake3 = "1.5"
+
+[dev-dependencies]
+hoonc = { path = "../hoonc" }
+tokio = { workspace = true }
+nockapp = { workspace = true }
+nockvm = { workspace = true }
+ibig = { path = "../nockvm/rust/ibig" }
