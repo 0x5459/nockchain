@@ -12,7 +12,7 @@ members = [
     "crates/nockvm/rust/nockvm_macros",
     "crates/nockvm/rust/nockvm",
     "crates/nockchain-wallet",
-    "crates/zkvm-jetpack",
+    "crates/zkvm-jetpack", "crates/rust-stark", "crates/cursor-mcp",
 ]
 
 resolver = "2"

@@ -1,0 +1,5 @@
+|=
+++  main
+  |=  [=root]
+  (sein root)
+--

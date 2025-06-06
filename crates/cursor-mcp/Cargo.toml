@@ -1,0 +1,10 @@
+[package]
+name = "cursor-mcp"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+clap = { version = "4.4.4", features = ["derive"] }
+hoonc = { path = "../hoonc" }
+tokio.workspace = true
+anyhow = "1"
